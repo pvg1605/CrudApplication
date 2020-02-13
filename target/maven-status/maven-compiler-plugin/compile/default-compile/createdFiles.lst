@@ -1,0 +1,7 @@
+crud_api/user/UserServiceImpl.class
+crud_api/CrudApi.class
+crud_api/user/UserRepository.class
+crud_api/user/UserController.class
+crud_api/user/UserService.class
+crud_api/user/User.class
+crud_api/user/CRUDService.class
