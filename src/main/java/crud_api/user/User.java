@@ -1,6 +1,7 @@
 package crud_api.user;
 
 import javax.persistence.Entity;
+
 import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -24,16 +25,16 @@ public class User {
 	@Getter @Setter
 	private Integer id;
 	
-	@Getter @Setter
+	@Getter @Setter 
 	private String firstname;
 	
-	@Getter @Setter
+	@Getter @Setter 
 	private String lastname;
 	
-	@Getter @Setter
+	@Getter @Setter 
 	private String email;
 	
-	@Getter @Setter
+	@Getter @Setter 
 	private Long phone;
 		
 	public User() {
