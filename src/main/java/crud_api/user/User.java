@@ -7,7 +7,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
+import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import lombok.Getter;
@@ -25,16 +27,16 @@ public class User {
 	@Getter @Setter
 	private Integer id;
 	
-	@Getter @Setter 
+	@Getter @Setter @NotEmpty(message = "first name is required")
 	private String firstname;
 	
-	@Getter @Setter 
+	@Getter @Setter @NotEmpty(message = "last name is required")
 	private String lastname;
 	
-	@Getter @Setter 
+	@Getter @Setter @NotEmpty(message = "email is required")
 	private String email;
 	
-	@Getter @Setter 
+	@Getter @Setter @NotNull(message = "phone number is required")
 	private Long phone;
 		
 	public User() {
@@ -48,7 +50,4 @@ public class User {
 		this.email = email;
 		this.phone = phone;
 	}
-	
-	
-	
 }

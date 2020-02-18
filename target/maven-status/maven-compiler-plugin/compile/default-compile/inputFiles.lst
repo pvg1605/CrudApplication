@@ -1,7 +1,10 @@
+/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/GlobalExceptionHandler.java
+/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/ResourceNotFoundException.java
 /Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserService.java
 /Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/User.java
 /Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserController.java
 /Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/CRUDService.java
 /Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserServiceImpl.java
+/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/ErrorDetails.java
 /Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserRepository.java
 /Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/CrudApi.java

@@ -2,15 +2,17 @@ package crud_api.user;
 
 import java.util.List;
 
+import org.springframework.http.ResponseEntity;
+
 public interface CRUDService<T> {
 
 	List<T> getAll();
 	
-	T get(Integer id);
+	ResponseEntity<User> get(Integer id);
 	
-	T create(T entity);
+	ResponseEntity<String> create(T entity);
 	
-	T update(Integer id, T entity);
+	ResponseEntity<String> update(Integer id, T entity);
 	
 	void delete(Integer id);
 }
