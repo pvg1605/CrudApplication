@@ -1,5 +1,6 @@
 crud_api/user/UserServiceImpl.class
 crud_api/user/ResourceNotFoundException.class
+crud_api/user/CacheConfig.class
 crud_api/CrudApi.class
 crud_api/user/UserRepository.class
 crud_api/user/ErrorDetails.class

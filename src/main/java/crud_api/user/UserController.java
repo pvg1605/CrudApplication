@@ -4,6 +4,7 @@ import java.util.List;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,15 +19,19 @@ public class UserController {
 
 	@Autowired
 	private UserService userService;
+	//private QueueHandler queueHandler;
 
 	@RequestMapping("/users")
 	public List<User> getAllUsers() {
-
+		//queueHandler.sendJob();
 		return userService.getAll();
 	}
-
+	
+	@Cacheable("CrudCache")
 	@RequestMapping("/users/{id}")
 	public ResponseEntity<User> getUser(@PathVariable Integer id)  {
+		
+		System.out.println("cache failed");
 		return userService.get(id);
 	}
 

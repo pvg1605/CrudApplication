@@ -5,21 +5,27 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <parent>
-  	<groupId> org.springframework.boot</groupId>
-  	<artifactId>spring-boot-starter-parent</artifactId>
-  	<version>1.5.22.RELEASE</version>
-  </parent>
+		<groupId>com.practo.commons</groupId>
+		<artifactId>practo-app-starter-parent</artifactId>
+		<version>1.1.2.RELEASE</version>
+	</parent>
   
   <properties>
-		<java.version>1.8</java.version>
-	</properties>
+	<java.version>1.8</java.version>
+	<minimum.coverage>0.00</minimum.coverage>
+		<findbugs-version>3.0.4</findbugs-version>
+ </properties>
 	
   <dependencies>
   	<dependency>
   		<groupId> org.springframework.boot</groupId>
   	<artifactId>spring-boot-starter-web</artifactId>
   	</dependency>
-  	
+  	<dependency>
+            <groupId>com.practo.commons</groupId>
+            <artifactId>commons-cache</artifactId>
+            <version>2.1.0.RELEASE</version>
+       </dependency>
   	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -27,15 +33,21 @@
 	<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.19</version><!--$NO-MVN-MAN-VER$-->
 			<scope>runtime</scope>
 		</dependency>
 	<dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-validation</artifactId>
-</dependency>
+	</dependency>
+	<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-messaging</artifactId>
+		</dependency>
 	<dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
+        <version>1.16.22</version><!--$NO-MVN-MAN-VER$-->
         <scope>provided</scope>
     </dependency>
 	<dependency>
@@ -49,8 +61,33 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
-	
   	</dependencies>
   
+  <repositories>
+		<repository>
+			<id>m2github-snapshots</id>
+			<name>github-snapshots</name>
+			<url>https://raw.githubusercontent.com/practo/m2/master/snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>m2github-releases</id>
+			<name>github-releases</name>
+			<url>https://raw.githubusercontent.com/practo/m2/master/releases</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>

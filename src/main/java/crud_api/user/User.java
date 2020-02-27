@@ -7,8 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.NotNull;
-
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
@@ -36,7 +34,7 @@ public class User {
 	@Getter @Setter @NotEmpty(message = "email is required")
 	private String email;
 	
-	@Getter @Setter @NotNull(message = "phone number is required")
+	@Getter @Setter 
 	private Long phone;
 		
 	public User() {
