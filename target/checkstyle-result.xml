@@ -1,7 +1,289 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.11.2">
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/ResourceNotFoundException.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/repository/UserRepository.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.repository&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="11" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/config/CacheConfig.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.config&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="21" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 12, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/controller/UserController.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.controller&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="23" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="44" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="48" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="49" severity="warning" message="Line is longer than 100 characters (found 107)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="49" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="52" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="52" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="54" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="55" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="56" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="57" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="57" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="59" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="60" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/CrudApi.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="11" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="11" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="11" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="12" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/model/User.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="18" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="33" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="34" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="21" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" severity="warning" message="&apos;ctor def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" severity="warning" message="&apos;ctor def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" severity="warning" message="&apos;ctor def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="42" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="44" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="45" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" severity="warning" message="&apos;ctor def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/model/CacheConfig.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.model&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="20" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 12, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/service/UserService.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/service/UserServiceImpl.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="15" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" severity="warning" message="&apos;if&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" severity="warning" message="&apos;if&apos; child have incorrect indentation level 16, expected level should be 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" severity="warning" message="&apos;if rcurly&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" severity="warning" message="&apos;else&apos; child have incorrect indentation level 24, expected level should be 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="66" severity="warning" message="WhitespaceAround: &apos;+&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="33" column="67" severity="warning" message="WhitespaceAround: &apos;+&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="34" severity="warning" message="&apos;else rcurly&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="40" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="40" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="45" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="47" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="49" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="49" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="52" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="52" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/service/CRUDService.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.service&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="11" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="11" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/exception/ResourceNotFoundException.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.exception&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="9" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="9" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="10" severity="warning" message="&apos;CTOR_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
@@ -10,64 +292,10 @@
 <error line="10" column="57" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 <error line="12" severity="warning" message="&apos;ctor def rcurly&apos; have incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserService.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/User.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="23" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="23" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="24" column="33" severity="warning" message="WhitespaceAround: &apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="24" column="34" severity="warning" message="WhitespaceAround: &apos;=&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="26" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="28" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="31" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="34" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="34" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="37" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="37" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="38" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="39" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="40" severity="warning" message="&apos;ctor def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="40" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="41" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="42" severity="warning" message="&apos;ctor def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="42" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="43" severity="warning" message="&apos;ctor def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="43" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="43" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="44" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="45" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="45" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="46" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="46" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="47" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="47" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="48" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="48" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="49" severity="warning" message="&apos;ctor def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="49" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="50" severity="warning" message="&apos;ctor def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="50" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/GlobalExceptionHandler.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/exception/GlobalExceptionHandler.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.exception&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="2" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="3" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="4" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="5" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="6" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="7" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="8" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -121,188 +349,8 @@
 <error line="35" severity="warning" message="&apos;class def rcurly&apos; have incorrect indentation level 8, expected level should be 0." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/CacheConfig.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="20" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="20" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="21" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="23" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="23" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="23" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="26" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="26" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="26" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="28" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="28" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="29" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="29" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="30" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="30" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="31" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="32" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="32" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="35" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 12, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="36" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserServiceImpl.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="3" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
-<error line="12" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="12" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="13" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="15" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="15" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="16" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="17" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="17" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="17" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="18" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="18" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="18" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="19" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="19" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="21" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="21" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="22" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="24" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="26" severity="warning" message="&apos;member def type&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="26" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="26" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="27" severity="warning" message="&apos;if&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="28" severity="warning" message="&apos;if&apos; child have incorrect indentation level 16, expected level should be 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="29" severity="warning" message="&apos;if rcurly&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="30" severity="warning" message="&apos;else&apos; child have incorrect indentation level 24, expected level should be 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="30" column="66" severity="warning" message="WhitespaceAround: &apos;+&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="30" column="67" severity="warning" message="WhitespaceAround: &apos;+&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="31" severity="warning" message="&apos;else rcurly&apos; have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="32" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="34" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="34" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="36" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="37" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="37" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="38" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="38" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="40" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="40" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="41" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="42" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="42" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="43" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="43" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="44" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="44" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="46" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="46" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="47" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="48" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="48" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="49" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="49" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserRepository.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/CRUDService.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="9" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="10" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="11" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="11" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="12" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="13" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="13" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="14" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="15" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="15" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="16" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="17" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="17" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/UserController.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="20" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="20" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="21" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="22" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="24" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="24" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="25" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="26" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="27" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="27" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="28" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="28" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="29" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="30" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="30" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="30" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="31" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="32" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="33" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="34" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="34" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="35" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="35" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="36" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="36" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="38" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="38" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="38" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="39" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="40" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="41" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="41" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="43" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="43" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="45" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="45" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="46" severity="warning" message="Line is longer than 100 characters (found 107)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="46" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="47" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="47" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="48" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="48" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="49" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="49" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="51" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="51" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="52" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="53" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="53" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="54" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="54" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="55" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="56" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="57" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/user/ErrorDetails.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api.user&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/com/crud_api/exception/ErrorDetails.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.crud_api.exception&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="10" severity="warning" message="&apos;ctor def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="10" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="10" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
@@ -329,19 +377,6 @@
 <error line="19" severity="warning" message="&apos;VARIABLE_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
 <error line="19" severity="warning" message="&apos;member def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="19" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-</file>
-<file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/java/crud_api/CrudApi.java">
-<error line="1" column="9" severity="warning" message="Package name &apos;crud_api&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="13" severity="warning" message="&apos;method def modifier&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="13" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="13" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="14" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="15" severity="warning" message="&apos;method def&apos; child have incorrect indentation level 16, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="15" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="16" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="17" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
-<error line="18" severity="warning" message="&apos;method def rcurly&apos; have incorrect indentation level 8, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
-<error line="18" column="1" severity="warning" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 </file>
 <file name="/Users/praveenv/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/crud_api/src/main/resources/application.properties">
 </file>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>User.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">crud</a> &gt; <a href="index.source.html" class="el_package">com.crud_api.model</a> &gt; <span class="el_source">User.java</span></div><h1>User.java</h1><pre class="source lang-java linenums">package com.crud_api.model;
+
+import javax.persistence.Entity;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import org.hibernate.validator.constraints.NotEmpty;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+
+@Table(name = &quot;Users&quot;)
+ 
+public class User {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+<span class="fc" id="L21">	@Getter @Setter</span>
+	private Integer id;
+	
+<span class="fc" id="L24">	@Getter @Setter @NotEmpty(message = &quot;first name is required&quot;)</span>
+	private String firstname;
+	
+<span class="fc" id="L27">	@Getter @Setter @NotEmpty(message = &quot;last name is required&quot;)</span>
+	private String lastname;
+	
+<span class="fc" id="L30">	@Getter @Setter @NotEmpty(message = &quot;email is required&quot;)</span>
+	private String email;
+	
+<span class="fc" id="L33">	@Getter @Setter </span>
+	private Long phone;
+		
+<span class="fc" id="L36">	public User() {</span>
+		
+<span class="fc" id="L38">	}</span>
+	public User(Integer id, String firstname, String lastname, String email, Long phone) {
+<span class="nc" id="L40">		super();</span>
+<span class="nc" id="L41">		this.id = id;</span>
+<span class="nc" id="L42">		this.firstname = firstname;</span>
+<span class="nc" id="L43">		this.lastname = lastname;</span>
+<span class="nc" id="L44">		this.email = email;</span>
+<span class="nc" id="L45">		this.phone = phone;</span>
+<span class="nc" id="L46">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span></div></body></html>
